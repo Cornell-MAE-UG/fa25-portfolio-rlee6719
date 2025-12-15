@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Ryan Lee> - Curriculum Vitae
+title: Ryan Lee - Curriculum Vitae
 permalink: /fa25-portfolio-rlee6719/cv/
 ---
 ## Curriculum Vitae
@@ -8,12 +8,7 @@ permalink: /fa25-portfolio-rlee6719/cv/
 [Download my CV]({{ "/assets/2024_summer_fall-1.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [rl693@cornell.edu](mailto:rl693@cornell.edu) | | | **Phone:** +123 456 7890
-
----
-
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+**Email:** [rl693@cornell.edu](mailto:rl693@cornell.edu) | | | **Phone:** +929 909 8414
 
 ---
 

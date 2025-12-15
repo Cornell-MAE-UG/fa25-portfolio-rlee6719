@@ -6,7 +6,7 @@ title: <Ryan Lee>
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/IMG_8477.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/IMG_8477.JPG" | relative_url }}){: class="profile-image"}
 
  
 My name is {{ site.name }}, and I am an undergraduate student at Cornell University majoring in Mechanical Engineering. I am interested in automotive engineering, aerospace and robotics.
