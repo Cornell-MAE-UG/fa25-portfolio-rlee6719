@@ -1,7 +1,7 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
-permalink: /fa25-portfolio-rlee6719//projects/
+title: Ryan Lee - Portfolio
+permalink: /fa25-portfolio-rlee6719/projects/
 ---
 
 <div class="gallery-container">
