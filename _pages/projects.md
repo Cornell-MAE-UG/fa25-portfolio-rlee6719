@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ryan Lee - Portfolio
-permalink: /fa25-portfolio-rlee6719/projects/
+permalink: /projects/
 ---
 
 <div class="gallery-container">

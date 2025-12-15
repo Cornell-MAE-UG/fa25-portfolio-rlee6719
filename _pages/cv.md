@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ryan Lee - Curriculum Vitae
-permalink: /fa25-portfolio-rlee6719/cv/
+permalink: /cv/
 ---
 ## Curriculum Vitae
 
