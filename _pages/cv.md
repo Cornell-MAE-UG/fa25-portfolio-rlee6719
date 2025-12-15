@@ -1,7 +1,7 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
-permalink: /cv/
+title: <Ryan Lee> - Curriculum Vitae
+permalink: /fa25-portfolio-rlee6719/cv/
 ---
 ## Curriculum Vitae
 
