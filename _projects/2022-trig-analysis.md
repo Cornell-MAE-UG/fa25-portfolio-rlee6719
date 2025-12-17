@@ -1,25 +1,13 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+title: MAE 4300
+description: MAE 4300
+technologies: [Ethics]
+image: /assets/images/plane.jpg
 ---
 
+As part of my MAE 4300 coursework, I completed a multi week engineering ethics portfolio centered on the Boeing 737 MAX MCAS system. The project guided me through identifying ethical issues, narrowing them into precise decision questions, and analyzing them using the ASME Code of Ethics. I focused on whether Boeing certification engineers should have refused to approve MCAS given its single sensor dependency and lack of pilot notification, framing the problem around public safety, professional responsibility, and organizational pressure in safety critical engineering systems.
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Through structured stakeholder analysis and ethical conflict mapping, I examined how competing priorities such as regulatory delegation, cost and schedule pressure, corporate hierarchy, and information silos contributed to ethical failure despite the presence of technically qualified engineers. I then evaluated these issues using ASME canons related to public safety, professional competence, truthful communication, and employer loyalty, ultimately concluding that public safety must take absolute precedence in life critical systems. The portfolio further explored practical constraints engineers face in real organizations and proposed prevention strategies at the individual, organizational, and systemic levels, including stronger safety review authority, improved transparency, and reduced regulatory capture.
 
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-
+This project strengthened my ability to analyze complex engineering decisions beyond purely technical performance, emphasizing how system design choices, organizational structures, and ethical judgment intersect in real world engineering practice. It reinforced the importance of redundancy, transparency, and professional accountability, principles I aim to carry forward into future engineering work.
