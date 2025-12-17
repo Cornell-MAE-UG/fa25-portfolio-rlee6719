@@ -2,41 +2,27 @@
 layout: project
 title: Wind Turbine Blade
 description: MAE 4727 - Design, Analysis, Testing of a Wind Turbine Blade
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+technologies: [Autodesk Inventor, MATLAB]
+image: /assets/images/render.png
 ---
 
-    Project overview: For MAE 4272 Fluids and Heat Transfer Laboratory we were tasked with designing a small scale wind turbine as a group project. The design was to optimize for the total power generation across a given velocity distribution
-Blade should not fail at high wind velocities
-Constraints
-Maximum 6 in from root to tip
-Compatible with standard hub piece
-Operate at fixed angular velocity, not exceeding 2000 RPM
-Operate in given velocity distribution:
+Project overview: 
+For MAE 4272 Fluids and Heat Transfer Laboratory we designed and tested a small scale wind turbine blade to maximize power generation under a given wind speed distribution and comply with geometric, operational and structural constraints. The primary design challenge was in selecting an appropriate airfoil and defining the pitch angle and chord of the blade in a way that ensured the structural integrity of the blade under test conditions. I worked on developing the analysis, design and testing of the part and was responsible for the 3D modeling of the wind turbine blade in Autodesk Inventor along with testing.
 
-    Design process: Key decisions, iterations, or modeling steps your team performed
+![Blade 3D Render]({{ "/assets/images/render.png" | relative_url }}){: .inline-image-l}
 
-    Testing summary: How the blades were tested and what data you analyzed
+Our design process began by defining an effective global wind speed from the given Weibull distribution using an integration based method that accounts for realistic variability in operations. We then selected a target operating point factoring in the tip speed ratio which resulted in a design rotation rate of 1400 RPM which is within our design constraints. Using a weighted spanwise analysis we determined from this point that the effective Reynolds number would be approximately 17000. 
 
-    Your contribution: I aided in the analysis, design and testing of the part and was responsible for the 3D modeling of the wind turbine blade in Autodesk Inventor.
+![Windspeed Analysis]({{ "/assets/images/windspeed.png" | relative_url }}){: .inline-image-l}
 
-    Figures: Plots, CAD image, and photos 
+Given that most available data online for airfoils used significantly higher Reynolds numbers, we applied scaling relations to adjust the lift and drag coefficient to match our relatively low operating range. Using this approach, we identified a number of candidate airfoils to compare based on efficiency and robustness to angle of attack variations. This yielded the SD7037 airfoil which proved to be the most reliable in our operating conditions. The ideal blade pitch and chord distributions were found using mathematical models provided from the Wind Power class. With this final geometry in hand we conducted a structural analysis of the blade that confirmed that it would not fail under the expected loads. 
 
+![Airfoil Analysis]({{ "/assets/images/airfoil.png" | relative_url }}){: .inline-image-l}
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+Testing summary: Our blades were tested in a wind tunnel to generate power curves at several wind speeds following the procedure outlined below. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+![Test Procedure]({{ "/assets/images/testing.png" | relative_url }}){: .inline-image-l}
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+While we were able to collect data at a couple of wind speeds that generally exhibited the shape of the expected power curve, our measured power output was significantly lower than what was analytically predicted. This discrepancy can be attributed to a number of factors such as higher friction, resonance effects, wake interactions and a CAD error that resulted in the blade profile being mirrored across the chord. Although we were not able to collect data that necessarily validated our analytical models, these findings did point us in the right direction towards improving our models and assumptions in the future. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-I was inspired by this old radio when I made this rendering:
-
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+![Power curves]({{ "/assets/images/powercurve.png" | relative_url }}){: .inline-image-l}
